@@ -1,0 +1,11 @@
+nav * {
+    background-color: rgb(95, 187, 230);
+    display: flex;
+    justify-content: center;
+    height: 4vw;
+    width: 100%;
+}
+#hero {
+    display: flex;
+    justify-content: center;
+}

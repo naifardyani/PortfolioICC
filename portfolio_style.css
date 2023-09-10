@@ -1,11 +1,90 @@
+/*Reset css*/
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Mulai desain custom*/
+body {
+    overflow-x: hidden;
+}
 nav * {
-    background-color: rgb(95, 187, 230);
+    background-color: rgb(153, 191, 153);
     display: flex;
     justify-content: center;
-    height: 4vw;
+    padding: 0.7vw;
+    height: auto;
     width: 100%;
 }
 #hero {
+    background-color: rgb(244, 241, 235);
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
+}
+h1 {
+    font-size: 70px;
+    margin-left: 3vw;
+}
+.perkenalan {
+    margin: 7vw;
+    position: relative;
+}
+.keterangan {
+    font-size: 120%;
+}
+/*#ImgContainer {
+    position: relative;
+}*/
+.random1 {
+    position: absolute;
+    background-color: rgb(59, 135, 59);
+    width: 30vw;
+    height: 20vw;
+    top: 240px;
+    right: 70px;
+    opacity: 0.3;
+}
+#mainImg {
+    height: 37vw;
+    margin-right: 10vw;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
 }

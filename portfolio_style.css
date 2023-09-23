@@ -63,28 +63,65 @@ h1 {
     font-size: 70px;
     margin-left: 3vw;
 }
+h2 {
+    font-size: 25px;
+}
+h5 {
+    font-size: 23;
+}
 .perkenalan {
-    margin: 7vw;
+    margin-top: 25vw;
+    margin: 6.5vw;
     position: relative;
 }
 .keterangan {
-    font-size: 120%;
+    font-size: 20px;
 }
-/*#ImgContainer {
+#ImgContainer {
     position: relative;
-}*/
+    z-index: 1;
+}
 .random1 {
     position: absolute;
+    z-index: -1;
     background-color: rgb(59, 135, 59);
     width: 30vw;
     height: 20vw;
     top: 240px;
     right: 70px;
     opacity: 0.3;
+    border-radius: 0% 100% 32% 68% / 96% 72% 28% 4% ;
 }
 #mainImg {
     height: 37vw;
     margin-right: 10vw;
     margin-top: 3vw;
     margin-bottom: 5vw;
+}
+.sosmedContainer {
+    margin-left: 1vw;
+    background-color: rgb(59, 135, 59);
+    width: 65%;
+    border-radius: 45px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#instagram, #gitHub {
+    width: 50%;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+}
+#instagram p, #gitHub p {
+    color: white;
+    font-size: 20px;
+}
+#toIG, #toGitHub {
+    width: 3vw;
+    height: auto;
+}
+#instagram:hover, #gitHub:hover {
+    background-color: rgb(47, 95, 47);
 }

@@ -18,43 +18,33 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 /*Mulai desain custom*/
-body {
-    overflow-x: hidden;
-}
 nav * {
     background-color: rgb(153, 191, 153);
     display: flex;
     justify-content: center;
-    padding: 0.7vw;
-    height: auto;
+    padding: 0.5vw;
     width: 100%;
+    
+}
+nav {
+    height: 4vw;
+    position: sticky;
+    top: 0;
+}
+nav a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: rgb(71, 77, 69);
+    font-size: 22px;
+    transition: 0.2s;
 }
 #hero {
+    position: relative;
     background-color: rgb(244, 241, 235);
     display: flex;
     justify-content: baseline;
